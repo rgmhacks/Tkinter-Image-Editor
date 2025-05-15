@@ -32,4 +32,8 @@ Application UI
 Edge Detection
 ![image](https://github.com/user-attachments/assets/f2e7ecdc-86d3-4a43-b38e-387ff3bdfa02) To ![image](https://github.com/user-attachments/assets/38d0df15-be96-4d6f-9200-74135ac754fc)
 
+Cropped Image
+![image](https://github.com/user-attachments/assets/c36ee2b3-0abc-4c21-af22-b193d16492e5)
+NOTE : To crop image you can manually enter the co-ordinates but a much simpler method is provided just double click on the respective position then click on the input box the value will be auto-filled but you have to follow the sequence : left -> top -> right -> bottom
+Same feature is provided for adding Text at a specific position
 
