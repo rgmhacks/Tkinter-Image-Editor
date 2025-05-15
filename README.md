@@ -24,3 +24,12 @@ Draw, crop, rotate, resize, apply filters, add text, and enhance images — all 
 
 🧪 Lightweight, no external dependencies except Pillow
 
+📸 Preview
+
+Application UI
+![image](https://github.com/user-attachments/assets/ffda7d2f-08f3-4554-be38-75f36fc1b52c)
+
+Edge Detection
+![image](https://github.com/user-attachments/assets/f2e7ecdc-86d3-4a43-b38e-387ff3bdfa02) To ![image](https://github.com/user-attachments/assets/38d0df15-be96-4d6f-9200-74135ac754fc)
+
+
