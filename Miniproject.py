@@ -8,8 +8,10 @@ root.state('zoomed')
 root.title("Image Editor")
 root.config(bg='#c2d5ed')
 
-icon = ImageTk.PhotoImage(file="D:\Engineering\sem 3\shinchan.jpeg")
-root.iconphoto(False,icon)
+# To add your own Icon just add the path to the image
+# icon = ImageTk.PhotoImage(file="D:\Project\shinchan.jpeg")
+# root.iconphoto(False,icon)
+
 pen_size = 5
 pen_color = 'black'
 file_path = ""
@@ -37,7 +39,7 @@ def close_window():
 def add_image():
     global file_path,width,height,buffer_img,cache
     file_path = filedialog.askopenfilename(
-        initialdir="D:\Engineering\sem 3\python\Miniproject\Picture")
+        initialdir="") # Here you can add some base directory so that directory will be opened when we click on Add Image
     image = Image.open(file_path)
     if(file_path[-4]=='.'):
         buffer_img = file_path[:-4]+"tmp"+file_path[-4:]
